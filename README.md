@@ -34,7 +34,7 @@ This change dramatically improves:
 2. **Set up the Unsplash dataset** (optional but recommended):
    - Follow instructions in `UNSPLASH_SETUP.md`
    - Download the Unsplash Lite dataset (1.5GB, 25,000 images)
-   - Run `python generate_unsplash_config.py` to set up image paths
+   - Run `python generate_unsplash_config.py` for interactive setup with flexible options
 3. **Open `index.html`** in a web browser
 4. **Load an image** and watch it transform into a mosaic!
 
@@ -67,7 +67,7 @@ L = 0.3 * R + 0.59 * G + 0.11 * B;
 
 - `imProcess.js` - Main image processing and mosaic generation logic
 - `index.html` - Web interface
-- `generate_unsplash_config.py` - Downloads and configures Unsplash dataset
+- `generate_unsplash_config.py` - Interactive setup script for downloading and configuring Unsplash dataset
 - `finalize_unsplash_config.py` - Generates config from existing downloads
 - `Pictures/` - Local fallback images
 - `unsplash_images/` - Downloaded Unsplash images (auto-generated)

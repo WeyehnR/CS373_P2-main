@@ -25,16 +25,21 @@ your-project/
 
 ## Step 2: Generate Configuration File
 
-Run the Python script to automatically create the image list:
+Run the interactive setup script:
 
 ```bash
 python generate_unsplash_config.py
 ```
 
-This will:
+This interactive script will:
 
-- Scan your `unsplash_lite` folder
-- Find all image files
+- Let you choose how many images to download (100 to 5000+)
+- Show size estimates and download time
+- Provide preset options (Quick, Small, Medium, Large, Maximum)
+- Allow custom amounts
+- Show real-time progress with ETA
+- Read from your downloaded Unsplash research dataset
+- Download actual image files from Unsplash
 - Generate `unsplash_config.js` with the complete file list
 
 ## Step 3: Test Your Setup
@@ -84,5 +89,3 @@ This will:
 - **Original**: 6 local images
 - **Unsplash Lite**: 25,000 images (1.5 GB)
 - **Result**: 4000x more variety for mosaics!
-
-
